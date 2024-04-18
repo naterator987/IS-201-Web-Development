@@ -1,0 +1,65 @@
+/* Reset default browser styles */
+html, body, header, nav, main, section, ul, li, iframe, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #005fad;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #0073e6;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+footer {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
